@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("point get.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("Adventure_Meme.mp3");
+export var ambientSound = new soundFile("Adventure_Meme_2.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -5; //turn down volume
